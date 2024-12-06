@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter Elements</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="categories flex">
+        <div class="category flex-text" onclick="showAll()">Show All</div>
+        <div class="category flex-text" onclick="filterData(0)">Cars</div>
+        <div class="category flex-text" onclick="filterData(1)">Animals</div>
+        <div class="category flex-text" onclick="filterData(2)">Fruits</div>
+        <div class="category flex-text" onclick="filterData(3)">Colors</div>
+      </div>
+
+      <div class="elements flex">
+        <div class="element flex-text cars">BMW</div>
+        <div class="element flex-text fruits colors">Orange</div>
+        <div class="element flex-text cars">Volvo</div>
+        <div class="element flex-text colors">Red</div>
+        <div class="element flex-text cars">Ford</div>
+        <div class="element flex-text colors">Blue</div>
+        <div class="element flex-text animals">Cat</div>
+        <div class="element flex-text animals">Dog</div>
+        <div class="element flex-text fruits">Melon</div>
+        <div class="element flex-text fruits">Kiwi</div>
+        <div class="element flex-text fruits">Banana</div>
+        <div class="element flex-text fruits">Lemon</div>
+        <div class="element flex-text animals">Cow</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
